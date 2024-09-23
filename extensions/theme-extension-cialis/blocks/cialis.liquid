@@ -1,0 +1,17 @@
+{% if template contains 'account' %}
+  {% if customer %}
+    <script>
+      window.customerId = {{ customer.id }};
+    </script>
+  {% endif %}
+  <script src="{{ 'account.js' | asset_url }}" defer></script>
+  <script src="{{ 'cmf.js' | asset_url }}" defer></script>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Cialis",
+    "target": "body",
+    "settings": []
+  }
+{% endschema %}
