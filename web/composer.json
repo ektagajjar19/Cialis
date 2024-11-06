@@ -8,7 +8,7 @@
     ],
     "license": "UNLICENSED",
     "require": {
-        "php": "^8.0",
+        "php": "^7.3|^8.0",
         "ext-xml": "*",
         "ext-zip": "*",
         "doctrine/dbal": "^3.1",
