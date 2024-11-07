@@ -10,7 +10,6 @@
   },
   "type": "module",
   "engines": {
-   // "node": ">= 12.16"
     "node": "20.X"
   },
   "stylelint": {
